@@ -1,3 +1,4 @@
+import { GlobalService } from './../global-service';
 import { KnowCard } from './../model';
 import { Component, OnInit, Input } from '@angular/core';
 
@@ -18,19 +19,23 @@ export class ProgramConhecimentoComponent implements OnInit {
 
   // tslint:disable-next-line:no-input-rename
   @Input('title') title: any;
-  constructor() {
+  globalService: GlobalService;
+
+  constructor(globalService: GlobalService) {
+    this.globalService = globalService;
   }
 
   ngOnInit() {
   }
 
   moreInfo(card) {
-    card.showInfo = !card.showInfo;
+    this.globalService.moreInfo(card);
   }
 
   closedPanel(cardsProperty: KnowCard[]) {
     cardsProperty.forEach(element => {
       element.showInfo = false;
+      this.globalService.setMostrarLabel(element);
     });
   }
 

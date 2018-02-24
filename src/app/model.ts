@@ -4,6 +4,7 @@ export class CardSocialInfo {
   image: string;
   showInfo: false;
   url: string;
+  infoButtonDescribe: string;
 }
 
 export class KnowCard {
@@ -13,4 +14,5 @@ export class KnowCard {
   qtdStar: number;
   showInfo: false;
   yearLearn: number;
+  infoButtonDescribe: string;
 }

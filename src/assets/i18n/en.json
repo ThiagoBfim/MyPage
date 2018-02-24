@@ -1,5 +1,6 @@
 {
-  "mostrar-info": "MORE INFO",
+  "mostrar-info": "SHOW INFO",
+  "esconder-info": "HIDE INFO",
   "abrir": "OPEN",
   "title-social": "My Social Info",
   "conhecimento": "Knowledge",
@@ -10,7 +11,6 @@
   "github-describe": "Here is a list of all my public projects! <br> The biggest motivation to use gitHub was because of the versioning,<br> but there are some commented projects as well. ",
   "linkedin-describe":"Here it contains some information in the professional field,<br> the companies that I have worked with, some knowledge that I have, <br> the connections with people, and articles that I have already done.",
   "stackoverflow-describe":"Here it contains some questions and answers that <br> I have already made about coding and other related issues <br> to the various languages ​​in which I have already used it.",
-
 
   "_comment_OUTROS": "OTHERS",
   "git-describe1": "I have several projects in the Git Hub;",

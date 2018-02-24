@@ -25,7 +25,7 @@
         </p>
       </mat-card-content>
       <mat-card-actions style='text-align:right;'>
-        <button class="btn btn-primary" (click)="moreInfo(card)">{{"mostrar-info" | translate}}</button>
+        <button class="btn btn-primary" (click)="moreInfo(card)">{{card.infoButtonDescribe}}</button>
         <a type="button" target="_blank" class="btn btn-success" href="{{card.url}}">{{"abrir" | translate}}</a>
       </mat-card-actions>
     </mat-card>

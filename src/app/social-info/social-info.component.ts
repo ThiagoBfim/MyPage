@@ -1,3 +1,4 @@
+import { GlobalService } from './../global-service';
 import { Component, OnInit } from '@angular/core';
 import { CardSocialInfo } from '../model';
 import { TranslateService } from '@ngx-translate/core';
@@ -9,13 +10,14 @@ import { LangChangeEvent } from '@ngx-translate/core';
   styleUrls: ['./social-info.component.css']
 })
 export class SocialInfoComponent implements OnInit {
-
   brazilImage = 'assets/images/brazil.png';
   usaImage = 'assets/images/usa.png';
   cards = [];
   translate: TranslateService;
+  globalService: GlobalService;
 
-  constructor(translate: TranslateService) {
+  constructor(globalService: GlobalService, translate: TranslateService) {
+    this.globalService = globalService;
     this.translate = translate;
     translate.setDefaultLang('pt');
     translate.use('pt');
@@ -31,6 +33,7 @@ export class SocialInfoComponent implements OnInit {
   createCardGit() {
     const card = new CardSocialInfo();
     card.title = 'Git Hub';
+    this.updateInfoButtonDescribe(card);
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this.translate.get('github-describe').subscribe(res => { card.describe = res; });
     });
@@ -42,6 +45,7 @@ export class SocialInfoComponent implements OnInit {
   createCardLikendin() {
     const card = new CardSocialInfo();
     card.title = 'Linkedin';
+    this.updateInfoButtonDescribe(card);
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this.translate.get('linkedin-describe').subscribe(res => { card.describe = res; });
     });
@@ -53,7 +57,8 @@ export class SocialInfoComponent implements OnInit {
   createCardStackOverFlow() {
     const card = new CardSocialInfo();
     card.title = 'Stack Overflow';
-    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+    this.updateInfoButtonDescribe(card);
+     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this.translate.get('stackoverflow-describe').subscribe(res => { card.describe = res; });
     });
     card.image = 'assets/images/stackoverflow-icon.png';
@@ -61,9 +66,18 @@ export class SocialInfoComponent implements OnInit {
     this.cards.push(card);
   }
 
-
   moreInfo(card) {
-    card.showInfo = !card.showInfo;
+    this.globalService.moreInfo(card);
+  }
+
+  public updateInfoButtonDescribe(card: CardSocialInfo) {
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      if (card.showInfo) {
+        this.translate.get('esconder-info').subscribe(res => { card.infoButtonDescribe = res; });
+      } else {
+        this.translate.get('mostrar-info').subscribe(res => { card.infoButtonDescribe = res; });
+      }
+    });
   }
 
   switchLanguage = (lang: string) => {  // <-- creating a new method
