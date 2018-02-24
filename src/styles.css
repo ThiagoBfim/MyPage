@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+.my-card {
+  padding:15px;
+  padding-left: 30px;
+  min-width:300px;
+}
+
+.icon-size {
+  width:30px;
+  height:30px;
+}
+
+.grad {
+  background: linear-gradient(to bottom right, #92efee, #4061a5);
+}

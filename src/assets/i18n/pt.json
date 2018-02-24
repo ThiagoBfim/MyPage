@@ -1,0 +1,95 @@
+{
+  "mostrar-info": "MAIS INFORMAÇÃO",
+  "abrir": "ABRIR",
+  "title-social": "Minhas Informações Sociais",
+  "conhecimento": "Conhecimento",
+  "title-conhecimento": "Conhecimento em {{title}}!",
+  "geral": "Geral",
+  "banco-dados":"Banco de Dados",
+  "servidor": "Servidor",
+  "github-describe": "Aqui contem todos os meus projetos publicos!<br> A maior motivação de utilizar o gitHub foi por causa do versionamento,<br>  mas existe alguns projetos comentados tambem. ",
+  "linkedin-describe":"Aqui contém algumas informações no ambito profissional, <br> empresas que já trabalhei, alguns conhecimentos que eu tenho, <br> conexões com pessoas, e artigos na qual eu já fiz.",
+  "stackoverflow-describe": "Aqui contém algumas perguntas e respostas que eu já fiz <br> sobre codificação e outros assuntos relacionados <br> às diversas linguagens na qual eu já utilizei. ",
+
+  "_comment_OUTROS": "OUTROS",
+  "git-describe1": "Tenho varios projetos no Git Hub;",
+  "git-describe2": "Já trabalhei em um projeto grande utilizando gitBlit para versionamento;",
+  "git-describe3": "Todos os projetos foi utilizando linha de comando.",
+
+  "maven-describe1": "Todos os meus projetos Java, eu utilizo a ferramenta Maven;",
+  "maven-describe2": "Utilizo o Maven para gerenciar e baixar as dependencias;",
+  "maven-describe3": "Também o utilizo para gerenciar plugins.",
+
+  "jasper-describe1": "Utilizei o Jasper para criação de relatorios;",
+  "jasper-describe2": "Já criei varios relatórios e sub-relatórios;",
+  "jasper-describe3": "Criei com exportação para excel, word e PDF.",
+
+  "_comment_SERVER": "SERVIDOR",
+  "jboss-describe1": "Utilizo o Wildfly como servidor de aplicação;",
+  "jboss-describe2": "Já trabalhei em um longo projeto com Wildfly;",
+  "jboss-describe3": "Tenho conhecimento sobre o arquivo standalone, da inicialização de wars, e outros.",
+
+  "apache-describe1": "Utilizei o Tomcat no meu Trabalho Final de Conclusão do Curso;",
+  "apache-describe2": "Utilizo o Tomcat para pequenos projetos que podem ser visto no meu gitHub.",
+  "apache-describe3": "Utilizo bastante Spring Boot, que possui o Tomcat embutido.",
+
+  "_comment_BANCO": "BANCO",
+  "sql-describe1": "Já trabalhei com vários sistemas na qual eu tive que criar scripts;",
+  "sql-describe2": "Já fiz pojetos com MySql, Sql Server e PostgreSQL;",
+  "sql-describe3": "Já criei Trigger, Job, Function, View...",
+
+  "nosql-describe1": "Já utilizei o fireBase como dataBase e aplicativos.",
+
+  "flyway-describe1": "Já fui responsável por gerenciar scripts, para isso utilize Flyway;",
+  "flyway-describe2": "Implementei o Flyway em um grande projeto para otimizar o tempo e manter o versionamento.",
+
+
+  "_comment_FRONT-END": "FRONT-END",
+  "java-info1": "Tenho a certificação 1Z0-808 (Java SE 8 Programmer I);",
+  "java-info2": "Já trabalhei com varios Frameworks de Java;",
+  "java-info3": "Já fiz varios cursos da linguagem Java SE e Java EE.",
+
+  "spring-info1": "Tenho vários projetos com Spring;",
+  "spring-info2": "Já criei projetos com Spring boot;",
+  "spring-info3": "Já utilizei Spring Data;",
+  "spring-info4": "Já utilizei Spring Security;",
+  "spring-info5": "Já utilizei Spring MVC.",
+
+  "wicket-info1": "Tenho longa experiência com Wicket;",
+  "wicket-info2": "Já trabalhei em um grande projeto utilizando Wicket;",
+  "wicket-info3": "Ja criei pages, panel e components.",
+
+  "hibernate-info1": "Utilizo bastante o Hibernate para fazer o mapeamento de entidades;",
+  "hibernate-info2": "Tenho experiência com mapeamento relacional;",
+  "hibernate-info3": "Tenho experiência com HQL;",
+  "hibernate-info4": "Já utilizei Hibernate Envers para auditoria.",
+
+  "html-describe1": "Tenho conhecimento em HTML5;",
+  "html-describe2": "Já criei varios projetos na qual tive que utilizar html;",
+  "html-describe3": "Ja utilizei Thymeleaf e Apache Velocity como template engine, alem de Wicket e JSF.",
+
+  "css-describe1": "Tenho conhecimento em CSS3;",
+  "css-describe2": "Já criei media queries para garantir responsividade.",
+
+  "js-describe1": "Já criei varias funções com Java Script;",
+  "js-describe2": "Utilizo bastante Jquery para facilitar a utilização do JS;",
+  "js-describe3": "Já utilizei funções nativas do Java Script para fazer funcionalidades que atendiam o negócio.",
+
+  "angular-describe1": "Já fiz um curso de Angular JS;",
+  "angular-describe2": "Já fiz um projeto com Angular JS para praticar;",
+  "angular-describe3": "Já criei alguns projetos com Angular(Angular 2);",
+  "angular-describe4": "Esse site foi feito utilizando Angular.",
+
+  "bootstrap-describe1": "A maioria dos meus projetos eu utilizo Bootstrap;",
+  "bootstrap-describe2": "Conheço bem o sistema de grid de Bootstrap;",
+  "bootstrap-describe3": "Essa página foi feito com Bootstrap e Material design.",
+
+  "_comment_MOBILE": "MOBILE",
+  "ionic-describe1": "Já criei pequenos projetos utilizando Ionic;",
+  "ionic-describe2": "Estou estudando Ionic pois é multiplataforma;",
+  "ionic-describe3": "Já fiz alguns cursos com Ionic;",
+  "ionic-describe4": "Tenho algum conhecimento em Angular e o utilizo para criar projetos com Ionic.",
+
+  "android-describe1": "Já fiz projetos com android puro;",
+  "android-describe2": "Já criei alguns aplicativos, mas nenhum profissional."
+}
