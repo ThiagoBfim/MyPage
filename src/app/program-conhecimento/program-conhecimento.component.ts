@@ -1,6 +1,7 @@
 import { GlobalService } from './../global-service';
 import { KnowCard } from './../model';
 import { Component, OnInit, Input } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-program-conhecimento',
@@ -20,9 +21,11 @@ export class ProgramConhecimentoComponent implements OnInit {
   // tslint:disable-next-line:no-input-rename
   @Input('title') title: any;
   globalService: GlobalService;
+  translate: TranslateService;
 
-  constructor(globalService: GlobalService) {
+  constructor(globalService: GlobalService, translate: TranslateService) {
     this.globalService = globalService;
+    this.translate = translate;
   }
 
   ngOnInit() {

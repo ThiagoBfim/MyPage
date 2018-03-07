@@ -2,7 +2,8 @@
   <mat-expansion-panel (closed)="closedPanel(cards)">
     <mat-expansion-panel-header>
       <mat-panel-title>
-        <h3 class="col-12" style="text-align:center">
+        <h3 style="text-align:center" class="col-12">
+          <span class="conhecimento-title">{{"conhecimento-em" | translate}}</span>
           {{"title-conhecimento" | translate:{'title': title} }}
         </h3>
       </mat-panel-title>
@@ -15,8 +16,8 @@
             <div mat-card-avatar>
               <img [src]="card.image" style="max-width:40px; max-height:40px;">
             </div>
-            <mat-card-title>
-              <h5 style="font-weight: bolder">{{card.title}}</h5>
+            <mat-card-title style="font-weight: bolder">
+              <h5>{{card.title}}</h5>
             </mat-card-title>
             <mat-card-subtitle>
               <div class="row">
