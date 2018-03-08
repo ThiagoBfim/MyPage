@@ -25,6 +25,7 @@ export class SocialInfoComponent implements OnInit {
     this.createCardGit();
     this.createCardLikendin();
     this.createCardStackOverFlow();
+    this.createSocialContact();
   }
 
   ngOnInit() {
@@ -58,11 +59,23 @@ export class SocialInfoComponent implements OnInit {
     const card = new CardSocialInfo();
     card.title = 'Stack Overflow';
     this.updateInfoButtonDescribe(card);
-     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this.translate.get('stackoverflow-describe').subscribe(res => { card.describe = res; });
     });
     card.image = 'assets/images/stackoverflow-icon.png';
     card.url = 'https://stackoverflow.com/users/8377722/thiago-bomfim';
+    this.cards.push(card);
+  }
+
+  createSocialContact() {
+    const card = new CardSocialInfo();
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.translate.get('contato').subscribe(res => { card.title = res; });
+    });
+    this.updateInfoButtonDescribe(card);
+    card.describe = '<b>E-mail:</b> thiagobomfim1995@gmail.com <br>\
+    <b>Telefone:</b> +55(61) 98494-8850';
+    card.image = 'assets/images/contact.png';
     this.cards.push(card);
   }
 
