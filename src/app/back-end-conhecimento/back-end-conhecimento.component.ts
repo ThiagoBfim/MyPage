@@ -30,7 +30,7 @@ export class BackEndConhecimentoComponent implements OnInit {
   createJavaKnow() {
     const card = new KnowCard();
     card.title = 'Java';
-    this.globalService.updateCardDescribe(card, 'java-info1', 'java-info2', 'java-info3');
+    this.globalService.updateCardDescribe(card, 'java-info1', 'java-info2', 'java-info3' , 'java-info4');
     card.image = 'assets/images/Java.png';
     card.yearLearn = 2015;
     card.qtdStar = 4;
@@ -53,7 +53,7 @@ export class BackEndConhecimentoComponent implements OnInit {
     this.globalService.updateCardDescribe(card, 'spring-info1', 'spring-info2', 'spring-info3', 'spring-info4', 'spring-info5');
     card.image = 'assets/images/spring.jpg';
     card.yearLearn = 2016;
-    card.qtdStar = 3;
+    card.qtdStar = 4;
     this.cards.push(card);
   }
 

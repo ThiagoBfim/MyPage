@@ -28,7 +28,7 @@ export class MobileConhecimentoComponent implements OnInit {
     this.globalService.updateCardDescribe(card, 'ionic-describe1', 'ionic-describe2', 'ionic-describe3', 'ionic-describe4');
     card.image = 'assets/images/ionic.png';
     card.yearLearn = 2018;
-    card.qtdStar = 1;
+    card.qtdStar = 3;
     this.cards.push(card);
   }
 
@@ -38,7 +38,7 @@ export class MobileConhecimentoComponent implements OnInit {
     this.globalService.updateCardDescribe(card, 'android-describe1', 'android-describe2');
     card.image = 'assets/images/android.png';
     card.yearLearn = 2017;
-    card.qtdStar = 1;
+    card.qtdStar = 2;
     this.cards.push(card);
   }
 

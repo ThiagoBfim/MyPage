@@ -15,9 +15,9 @@
   "stackoverflow-describe":"Here it contains some questions and answers that <br> I have already made about coding and other related issues <br> to the various languages ​​in which I have already used it.",
 
   "_comment_OUTROS": "OTHERS",
-  "git-describe1": "I have several projects in the Git Hub;",
+  "git-describe1": "I have several projects in the Git Hub and some private on Git Lab;",
   "git-describe2": "I've worked on a large project using gitBlit for versioning;",
-  "git-describe3": "All projects were using command line.",
+  "git-describe3": "Most of the projects were using command line.",
 
   "maven-describe1": "All my Java projects, I use the Maven tool;",
   "maven-describe2": "I use Maven to manage and drop dependencies;",
@@ -28,7 +28,7 @@
   "jasper-describe3": "I created with export to excel, word and PDF.",
 
   "_comment_SERVER": "SERVER",
-  "jboss-describe1": "I use Wildfly as an application server;",
+  "jboss-describe1": "I use Wildfly on most of projects as an application server;",
   "jboss-describe2": "I've worked on a long project with Wildfly;",
   "jboss-describe3": "I have knowledge about the standalone file, the wars boot, and others.",
 
@@ -38,29 +38,32 @@
 
   "_comment_BANCO": "BANK",
   "sql-describe1": "I have worked with several systems on which I had to create scripts;",
-  "sql-describe2": "I have done potions with MySql, Sql Server and PostgreSQL;",
+  "sql-describe2": "I have done potions with MySql, Sql Server, Oracle and PostgreSQL;",
   "sql-describe3": "I've already created Trigger, Job, Function, View ...",
 
-  "nosql-describe1": "I have already used fireBase as dataBase and applications.",
+  "quartz-describe1": "I already used quartz in some projects, in which I had to configure for clustered environments",
 
-  "flyway-describe1": "I was already responsible for managing scripts, so use Flyway;",
+  "nosql-describe1": "I have already used fireBase as dataBase in some applications.",
+
+  "flyway-describe1": "I was responsible for managing scripts, so I use Flyway;",
   "flyway-describe2": "Implemented Flyway in a great project to optimize time and maintain versioning.",
 
 
   "_comment_FRONT-END": "FRONT-END",
-  "java-info1": "I have the 1Z0-808 (Java SE 8 Programmer I);",
-  "java-info2": "I have worked with several Java frameworks;",
-  "java-info3": "I have already done several courses of the Java SE language and Java EE.",
+  "java-info1": "I have the 1Z0-808 certification (Java SE 8 Programmer I);",
+  "java-info2": "I have the 1Z0-809 certification (Java SE 8 Programmer II);",
+  "java-info3": "I have worked with several Java frameworks;",
+  "java-info4": "I have already done several courses.",
 
   "spring-info1": "I have several projects with Spring;",
-  "spring-info2": "I have already created projects with Spring boot;",
+  "spring-info2": "I have already created projects with Spring Boot;",
   "spring-info3": "I already used Spring Data;",
   "spring-info4": "I already used Spring Security;",
   "spring-info5": "I've already used Spring MVC.",
 
   "wicket-info1": "I have long experience with Wicket;",
-  "wicket-info2": "I've worked on a large project using Wicket;",
-  "wicket-info3": "I have created pages, panel and components.",
+  "wicket-info2": "I've worked on large projects using Wicket;",
+  "wicket-info3": "I've already created pages, panel, validators, components, and others.",
 
   "hibernate-info1": "I use Hibernate extensively to do entity mapping;",
   "hibernate-info2": "I have experience with relational mapping;",
@@ -69,7 +72,7 @@
 
   "html-describe1": "I have knowledge in HTML5;",
   "html-describe2": "I have already created several projects in which I had to use html;",
-  "html-describe3": "I already used Thymeleaf and Apache Velocity as template engine, besides Wicket and JSF.",
+  "html-describe3": "I already used Thymeleaf and Apache Velocity as template engine.",
 
   "css-describe1": "I have knowledge in CSS3;",
   "css-describe2": "I've already created media queries to ensure responsiveness.",
@@ -88,10 +91,10 @@
   "bootstrap-describe3": "This page was made with Bootstrap and Material design.",
 
   "_comment_MOBILE": "MOBILE",
-  "ionic-describe1": "I have already created small projects using Ionic;",
+  "ionic-describe1": "I have already created some projects using Ionic;",
   "ionic-describe2": "I'm studying Ionic because it's multiplatform;",
-  "ionic-describe3": "I've done some courses with Ionic;",
-  "ionic-describe4": "I have some knowledge in Angular and use it to create projects with Ionic.",
+  "ionic-describe3": "I've done some courses about Ionic;",
+  "ionic-describe4": "I have some knowledge in Angular, and use it to create projects with Ionic.",
 
   "android-describe1": "I've done projects with pure android;",
   "android-describe2": "I've created some applications, but no professional."

@@ -25,6 +25,7 @@ export class DatabaseConhecimentoComponent implements OnInit {
 
   ngOnInit() {
     this.createSqlKnow();
+    this.createQuartzKnow();
     this.createFlywayKnow();
     this.createNoSqlKnow();
   }
@@ -39,13 +40,23 @@ export class DatabaseConhecimentoComponent implements OnInit {
     this.cards.push(card);
   }
 
+  createQuartzKnow() {
+    const card = new KnowCard();
+    card.title = 'Quartz';
+    this.globalService.updateCardDescribe(card, 'quartz-describe1');
+    card.image = 'assets/images/quartz.jpg';
+    card.yearLearn = 2018;
+    card.qtdStar = 2;
+    this.cards.push(card);
+  }
+
   createNoSqlKnow() {
     const card = new KnowCard();
     card.title = 'NoSql';
     this.globalService.updateCardDescribe(card, 'nosql-describe1');
     card.image = 'assets/images/NoSQL.jpg';
     card.yearLearn = 2017;
-    card.qtdStar = 1;
+    card.qtdStar = 2;
     this.cards.push(card);
   }
 
