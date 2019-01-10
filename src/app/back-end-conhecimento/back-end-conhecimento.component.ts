@@ -33,7 +33,7 @@ export class BackEndConhecimentoComponent implements OnInit {
       'Design Patterns - Algaworks.pdf', 'HackaTruck - Eldorado.pdf');
     card.image = 'assets/images/Java.png';
     card.yearLearn = 2015;
-    card.qtdStar = 4;
+    card.qtdStar = 5;
     this.cards.push(card);
   }
 
@@ -51,6 +51,7 @@ export class BackEndConhecimentoComponent implements OnInit {
     const card = new KnowCard();
     card.title = 'Spring Framework';
     this.globalService.updateCardDescribe(card, 'spring-info1', 'spring-info2', 'spring-info3', 'spring-info4', 'spring-info5');
+    this.globalService.updateCardCertificationLink(card, 'Angular with Spring - Algaworks.pdf', 'Spring Framework Expert - Algaworks.pdf');
     card.image = 'assets/images/spring.jpg';
     card.yearLearn = 2016;
     card.qtdStar = 3;
