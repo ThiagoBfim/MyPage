@@ -33,6 +33,7 @@ export class DatabaseConhecimentoComponent implements OnInit {
     const card = new KnowCard();
     card.title = 'SQL';
     this.globalService.updateCardDescribe(card, 'sql-describe1', 'sql-describe2', 'sql-describe3');
+    this.globalService.updateCardCertificationLink(card, 'SQL - Certificado.pdf');
     card.image = 'assets/images/sql.png';
     card.yearLearn = 2016;
     card.qtdStar = 4;
