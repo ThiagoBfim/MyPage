@@ -30,9 +30,10 @@ export class FrontEndConhecimentoComponent implements OnInit {
     const card = new KnowCard();
     card.title = 'HTML';
     this.globalService.updateCardDescribe(card, 'html-describe1', 'html-describe2', 'html-describe3');
+    this.globalService.updateCardCertificationLink(card, 'HTML and CSS - Certificado Oficina na Net.pdf');
     card.image = 'assets/images/html.png';
     card.yearLearn = 2015;
-    card.qtdStar = 4;
+    card.qtdStar = 5;
     this.cards.push(card);
   }
 
@@ -40,6 +41,7 @@ export class FrontEndConhecimentoComponent implements OnInit {
     const card = new KnowCard();
     card.title = 'CSS';
     this.globalService.updateCardDescribe(card, 'css-describe1', 'css-describe2');
+    this.globalService.updateCardCertificationLink(card, 'HTML and CSS - Certificado Oficina na Net.pdf');
     card.image = 'assets/images/css.png';
     card.yearLearn = 2015;
     card.qtdStar = 4;
@@ -60,9 +62,10 @@ export class FrontEndConhecimentoComponent implements OnInit {
     const card = new KnowCard();
     card.title = 'Angular';
     this.globalService.updateCardDescribe(card, 'angular-describe1', 'angular-describe2', 'angular-describe3', 'angular-describe4');
+    this.globalService.updateCardCertificationLink(card, 'Angular with Spring - Algaworks.pdf');
     card.image = 'assets/images/angular.png';
     card.yearLearn = 2017;
-    card.qtdStar = 2;
+    card.qtdStar = 3;
     this.cards.push(card);
   }
 
