@@ -34,7 +34,7 @@
               </li>
             </ul>
             <img [src]="urlClock" class="icon-size">
-            <b> {{yearNow - card.yearLearn}} ano(s) </b>
+            <b> {{yearNow - card.yearLearn}} {{ "anos" | translate}} </b>
           </mat-card-content>
           <mat-card-actions style='text-align:right;'>
             <button class="btn btn-primary" (click)="moreInfo(card)">{{card.infoButtonDescribe}}</button>

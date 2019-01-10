@@ -7,6 +7,7 @@
   "conhecimento-em": "Conhecimento em",
   "Telefone":"Telefone",
   "Idade":"Idade",
+  "anos":"ano(s)",
   "Profissao":"Profissão",
   "engenheiroSoftware":"Engenheiro de Software",
   "title-conhecimento": " {{title}}!",

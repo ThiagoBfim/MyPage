@@ -9,6 +9,7 @@
   "Profissao":"Profession",
   "Telefone":"Telephone",
   "Idade":"Age",
+  "anos":"year(s)",
   "title-conhecimento": " {{title}}!",
   "geral": "General",
   "banco-dados":"Data Base",

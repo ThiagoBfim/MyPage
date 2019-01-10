@@ -6,6 +6,7 @@ export class CardSocialInfo {
 export class KnowCard {
   title: string;
   describes = [];
+  certificationsLink = [];
   image: string;
   qtdStar: number;
   showInfo: false;
