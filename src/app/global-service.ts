@@ -23,6 +23,13 @@ export class GlobalService {
     this.updateInfoButtonDescribe(card);
   }
 
+  public updateCardCertificationLink(card: KnowCard, ...certification: string[]) {
+    // tslint:disable-next-line:forin
+    for (const i in certification) {
+      card.certificationsLink.push(certification[i]);
+    }
+  }
+
   private updateInfoButtonDescribe(card: KnowCard) {
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
       if (card.showInfo) {

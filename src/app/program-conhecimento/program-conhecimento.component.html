@@ -28,11 +28,18 @@
             </mat-card-subtitle>
           </mat-card-header>
           <mat-card-content *ngIf="card.showInfo">
+            <b>{{"Descricao" | translate}}</b>
             <ul>
               <li *ngFor="let describe of card.describes">
                 {{describe}}
               </li>
             </ul>
+            <b>{{"Certificados"| translate}}</b>
+            <ul>
+                <li *ngFor="let certification of card.certificationsLink">
+                 <a href="assets/certificados/{{certification}}" target="_blank"> {{certification.replace('.pdf','')}}</a>
+                </li>
+              </ul>
             <img [src]="urlClock" class="icon-size">
             <b> {{yearNow - card.yearLearn}} {{ "anos" | translate}} </b>
           </mat-card-content>

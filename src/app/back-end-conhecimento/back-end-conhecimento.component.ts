@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { KnowCard } from '../model';
-import { TranslateService } from '@ngx-translate/core';
-import { LangChangeEvent } from '@ngx-translate/core';
 import { GlobalService } from '../global-service';
 
 @Component({
@@ -31,6 +29,8 @@ export class BackEndConhecimentoComponent implements OnInit {
     const card = new KnowCard();
     card.title = 'Java';
     this.globalService.updateCardDescribe(card, 'java-info1', 'java-info2', 'java-info3');
+    this.globalService.updateCardCertificationLink(card, 'Oracle 1Z0-808.pdf', 'Oracle 1z0-809.pdf',
+      'Design Patterns - Algaworks.pdf', 'HackaTruck - Eldorado.pdf');
     card.image = 'assets/images/Java.png';
     card.yearLearn = 2015;
     card.qtdStar = 4;

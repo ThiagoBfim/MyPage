@@ -8,6 +8,8 @@
   "engenheiroSoftware":"Software Engineer",
   "Profissao":"Profession",
   "Telefone":"Telephone",
+  "Certificados": "Certificate(s)",
+  "Descricao": "Description",
   "Idade":"Age",
   "anos":"year(s)",
   "title-conhecimento": " {{title}}!",
