@@ -48,6 +48,8 @@ export class ProgramConhecimentoComponent implements OnInit {
   }
 
   closedPanel(cardsProperty: KnowCard[]) {
+    this.qtdOpenCard = 0;
+    this.widthCard = '50%';
     cardsProperty.forEach(element => {
       element.showInfo = false;
       this.globalService.setMostrarLabel(element);
