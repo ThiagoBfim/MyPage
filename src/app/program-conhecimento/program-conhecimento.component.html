@@ -9,8 +9,8 @@
       </mat-panel-title>
     </mat-expansion-panel-header>
 
-    <div class="row">
-      <div *ngFor="let card of cards" class="my-card">
+    <div class="row" style="color:black">
+      <div *ngFor="let card of cards" class="my-card" [style.width]='widthCard'>
         <mat-card style="background: white;">
           <mat-card-header>
             <div mat-card-avatar>

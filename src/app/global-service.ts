@@ -40,6 +40,7 @@ export class GlobalService {
     } else {
       this.setMostrarLabel(card);
     }
+    return card.showInfo;
   }
 
   public setEsonconderLabel(card: any) {

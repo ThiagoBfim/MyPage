@@ -1,5 +1,19 @@
+.title-name {
+  text-align:left;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
 
-.header-image-git {
-  background-image: url('/assets/images/logo-nav@2x.png');
-  background-size: cover;
+.sub-title {
+  text-align:left;
+  font-size: 18px;
+  color: white;
+}
+
+.sub-title > p {
+  margin: 1px;
+}
+.container-social {
+  margin: 5px;
 }

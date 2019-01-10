@@ -2,3 +2,31 @@
   background: linear-gradient(to bottom right, #4061a5, #208d2f);
 }
 
+.my-container {
+  margin: 30px;
+}
+
+.right-container {
+  border-style: double;
+  color: white;
+  background-color: darkgrey;
+  padding: 10px;
+}
+
+.left-container {
+  border-style: double;
+  color: white;
+  background-color: darkgray;
+  padding: 10px;
+}
+
+.title-conhecimento {
+  text-align:left;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.sub-container {
+  margin: 5px;
+}

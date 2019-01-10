@@ -76,8 +76,4 @@ export class FrontEndConhecimentoComponent implements OnInit {
     this.cards.push(card);
   }
 
-  moreInfo(card) {
-    card.showInfo = !card.showInfo;
-  }
-
 }

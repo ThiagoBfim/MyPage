@@ -14,6 +14,8 @@ export class ProgramConhecimentoComponent implements OnInit {
   urlStarEmpty = 'assets/images/blank-star.png';
   urlClock = 'assets/images/clock.png';
   yearNow = (new Date()).getFullYear();
+  widthCard = '50%';
+  qtdOpenCard = 0;
 
   // tslint:disable-next-line:no-input-rename
   @Input('obj') cards: any;
@@ -31,8 +33,18 @@ export class ProgramConhecimentoComponent implements OnInit {
   ngOnInit() {
   }
 
+
   moreInfo(card) {
-    this.globalService.moreInfo(card);
+    const showInfo = this.globalService.moreInfo(card);
+    if (showInfo) {
+      this.qtdOpenCard++;
+      this.widthCard = '100%';
+    } else {
+      this.qtdOpenCard--;
+      if (this.qtdOpenCard === 0) {
+        this.widthCard = '50%';
+      }
+    }
   }
 
   closedPanel(cardsProperty: KnowCard[]) {

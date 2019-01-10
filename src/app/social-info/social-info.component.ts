@@ -10,11 +10,10 @@ import { LangChangeEvent } from '@ngx-translate/core';
   styleUrls: ['./social-info.component.css']
 })
 export class SocialInfoComponent implements OnInit {
-  brazilImage = 'assets/images/brazil.png';
-  usaImage = 'assets/images/usa.png';
   cards = [];
   translate: TranslateService;
   globalService: GlobalService;
+  minhaIdade;
 
   constructor(globalService: GlobalService, translate: TranslateService) {
     this.globalService = globalService;
@@ -22,10 +21,20 @@ export class SocialInfoComponent implements OnInit {
     translate.setDefaultLang('pt');
     translate.use('pt');
 
+    this.calculateMinhaIdade();
     this.createCardGit();
     this.createCardLikendin();
     this.createCardStackOverFlow();
-    this.createSocialContact();
+  }
+
+  calculateMinhaIdade() {
+    const anoNascimento = new Date('1995-08-04T00:00:00');
+    const dataAtual = new Date();
+    this.minhaIdade = dataAtual.getFullYear() - anoNascimento.getFullYear();
+    if (dataAtual.getMonth() < anoNascimento.getMonth() && dataAtual.getDay() < anoNascimento.getDay()) {
+      this.minhaIdade--;
+    }
+
   }
 
   ngOnInit() {
@@ -33,11 +42,6 @@ export class SocialInfoComponent implements OnInit {
 
   createCardGit() {
     const card = new CardSocialInfo();
-    card.title = 'Git Hub';
-    this.updateInfoButtonDescribe(card);
-    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.translate.get('github-describe').subscribe(res => { card.describe = res; });
-    });
     card.image = 'assets/images/GitHub-Mark-32px.png';
     card.url = 'https://github.com/ThiagoBfim';
     this.cards.push(card);
@@ -45,11 +49,6 @@ export class SocialInfoComponent implements OnInit {
 
   createCardLikendin() {
     const card = new CardSocialInfo();
-    card.title = 'Linkedin';
-    this.updateInfoButtonDescribe(card);
-    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.translate.get('linkedin-describe').subscribe(res => { card.describe = res; });
-    });
     card.image = 'assets/images/icon-linkedin.png';
     card.url = 'https://www.linkedin.com/in/thiago-bomfim-37b198a1/';
     this.cards.push(card);
@@ -57,44 +56,10 @@ export class SocialInfoComponent implements OnInit {
 
   createCardStackOverFlow() {
     const card = new CardSocialInfo();
-    card.title = 'Stack Overflow';
-    this.updateInfoButtonDescribe(card);
-    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.translate.get('stackoverflow-describe').subscribe(res => { card.describe = res; });
-    });
     card.image = 'assets/images/stackoverflow-icon.png';
     card.url = 'https://stackoverflow.com/users/8377722/thiago-bomfim';
     this.cards.push(card);
   }
 
-  createSocialContact() {
-    const card = new CardSocialInfo();
-    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.translate.get('contato').subscribe(res => { card.title = res; });
-    });
-    this.updateInfoButtonDescribe(card);
-    card.describe = '<b>E-mail:</b> thiagobomfim1995@gmail.com <br>\
-    <b>Telefone:</b> +55(61) 98494-8850';
-    card.image = 'assets/images/contact.png';
-    this.cards.push(card);
-  }
-
-  moreInfo(card) {
-    this.globalService.moreInfo(card);
-  }
-
-  public updateInfoButtonDescribe(card: CardSocialInfo) {
-    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      if (card.showInfo) {
-        this.translate.get('esconder-info').subscribe(res => { card.infoButtonDescribe = res; });
-      } else {
-        this.translate.get('mostrar-info').subscribe(res => { card.infoButtonDescribe = res; });
-      }
-    });
-  }
-
-  switchLanguage = (lang: string) => {  // <-- creating a new method
-    this.translate.use(lang); // <-- invoking `use()`
-  }
 
 }

@@ -1,10 +1,6 @@
 export class CardSocialInfo {
-  title: string;
-  describe: string;
   image: string;
-  showInfo: false;
   url: string;
-  infoButtonDescribe: string;
 }
 
 export class KnowCard {

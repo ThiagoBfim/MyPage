@@ -1,18 +1,28 @@
-<div class="grad-green container" style="padding-bottom:30px;">
-  <app-social-info></app-social-info>
+<div class="root-container">
+  <div class="my-container row">
+    <div class="left-container col-4">
+      <app-social-info></app-social-info>
+    </div>
 
-  <br>
-  <br>
-
-  <div>
-    <h1 class="col-12" style="text-align:center; font-weight: bold">
-        {{"conhecimento" | translate}}
-    </h1>
-    <app-back-end-conhecimento></app-back-end-conhecimento>
-    <app-front-end-conhecimento></app-front-end-conhecimento>
-    <app-database-conhecimento></app-database-conhecimento>
-    <app-mobile-conhecimento></app-mobile-conhecimento>
-    <app-server-conhecimento></app-server-conhecimento>
-    <app-others-conhecimento></app-others-conhecimento>
+    <div class="right-container col-8">
+      <div>
+        <div class="row sub-container">
+          <div class="col-8">
+            <h1 class="title-conhecimento">
+              {{"Conhecimentos" | translate}}
+            </h1>
+          </div>
+          <div class="col-4" style="text-align: right">
+            <a href="javascript:void(0);" (click)="switchLanguage('en')"> <img [src]="usaImage" style="max-width:80px; max-height:80px;"></a>
+            <a href="javascript:void(0);" (click)="switchLanguage('pt')"> <img [src]="brazilImage" style="max-width:80px; max-height:80px;"></a>
+          </div>
+        </div>
+        <app-back-end-conhecimento></app-back-end-conhecimento>
+        <app-front-end-conhecimento></app-front-end-conhecimento>
+        <app-database-conhecimento></app-database-conhecimento>
+        <app-mobile-conhecimento></app-mobile-conhecimento>
+        <app-server-conhecimento></app-server-conhecimento>
+        <app-others-conhecimento></app-others-conhecimento>
+      </div>
+    </div>
   </div>
-</div>
