@@ -101,5 +101,13 @@
   "ionic-describe4": "Tenho algum conhecimento em Angular e o utilizo para criar projetos com Ionic.",
 
   "android-describe1": "Já fiz projetos com android puro;",
-  "android-describe2": "Já criei alguns aplicativos, mas nenhum profissional."
+  "android-describe2": "Já criei alguns aplicativos, mas nenhum profissional.",
+
+  "_comment_MACHINE-LEARNING": "MACHINE-LEARNING",
+  "sckit-learn-info1": "Já fiz alguns projetos utilizando Sckit-Learning para predição",
+
+  "pytorch-info1": "Fiz alguns cursos da Udacity, na qual tive oportunidade de aprender bastante sobre Pytorch e ML;",
+  "pytorch-info2": "Fiz alguns projetos do Kaggle utilizando Pytorch;",
+  "pytorch-info3": "Para maiores informações: https://github.com/ThiagoBfim/Machine-Learning"
+
 }

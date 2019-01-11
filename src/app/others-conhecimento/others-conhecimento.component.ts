@@ -45,7 +45,7 @@ export class OthersConhecimentoComponent implements OnInit {
     card.title = 'Linux';
     this.globalService.updateCardDescribe(card, 'linux-describe1');
     this.globalService.updateCardCertificationLink(card, 'Linux - Certificado.pdf');
-    card.image = 'assets/images/linux.png';
+    card.image = 'assets/images/linux.ico';
     card.yearLearn = 2016;
     card.qtdStar = 2;
     this.cards.push(card);
