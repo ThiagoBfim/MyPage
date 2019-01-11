@@ -25,6 +25,8 @@
   "git-describe2": "I've worked on a large project using gitBlit for versioning;",
   "git-describe3": "All projects were using command line.",
 
+  "linux-describe1": "I've worked on deploying on Linux servers with remote access.",
+
   "maven-describe1": "All my Java projects, I use the Maven tool;",
   "maven-describe2": "I use Maven to manage and drop dependencies;",
   "maven-describe3": "I also use it to manage plugins.",
@@ -54,9 +56,9 @@
 
 
   "_comment_FRONT-END": "FRONT-END",
-  "java-info1": "I have the 1Z0-808 (Java SE 8 Programmer I);",
+  "java-info1": "I have Oracle certifications;",
   "java-info2": "I have worked with several Java frameworks;",
-  "java-info3": "I have already done several courses of the Java SE language and Java EE.",
+  "java-info3": "I am aware of some Design patterns.",
 
   "spring-info1": "I have several projects with Spring;",
   "spring-info2": "I have already created projects with Spring boot;",
@@ -65,7 +67,7 @@
   "spring-info5": "I've already used Spring MVC.",
 
   "wicket-info1": "I have long experience with Wicket;",
-  "wicket-info2": "I've worked on a large project using Wicket;",
+  "wicket-info2": "I've worked on large projects using Wicket;",
   "wicket-info3": "I have created pages, panel and components.",
 
   "hibernate-info1": "I use Hibernate extensively to do entity mapping;",
@@ -85,7 +87,7 @@
   "js-describe3": "I've already used native Java Script functions to do business-like features.",
 
   "angular-describe1": "I have already taken a course of Angular JS;",
-  "angular-describe2": "I have already done a project with Angular JS to practice;",
+  "angular-describe2": "I have already done some Angular JS projects to practice;",
   "angular-describe3": "I have already created some projects with Angular (Angular 2);",
   "angular-describe4": "This site was made using Angular.",
 
@@ -95,7 +97,6 @@
 
   "_comment_MOBILE": "MOBILE",
   "ionic-describe1": "I have already created small projects using Ionic;",
-  "ionic-describe2": "I'm studying Ionic because it's multiplatform;",
   "ionic-describe3": "I've done some courses with Ionic;",
   "ionic-describe4": "I have some knowledge in Angular and use it to create projects with Ionic.",
 

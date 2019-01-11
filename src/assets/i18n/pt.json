@@ -25,6 +25,8 @@
   "git-describe2": "Já trabalhei em um projeto grande utilizando gitBlit para versionamento;",
   "git-describe3": "Todos os projetos foi utilizando linha de comando.",
 
+  "linux-describe1": "Já trabalhei realizando implantação em servidores Linux com acesso remoto.",
+
   "maven-describe1": "Todos os meus projetos Java, eu utilizo a ferramenta Maven;",
   "maven-describe2": "Utilizo o Maven para gerenciar e baixar as dependencias;",
   "maven-describe3": "Também o utilizo para gerenciar plugins.",
@@ -54,9 +56,9 @@
 
 
   "_comment_FRONT-END": "FRONT-END",
-  "java-info1": "Tenho a certificação 1Z0-808 (Java SE 8 Programmer I);",
+  "java-info1": "Tenho certificações Oracle",
   "java-info2": "Já trabalhei com varios Frameworks de Java;",
-  "java-info3": "Já fiz varios cursos da linguagem Java SE e Java EE.",
+  "java-info3": "Tenho domínio de alguns Design patterns.",
 
   "spring-info1": "Tenho vários projetos com Spring;",
   "spring-info2": "Já criei projetos com Spring boot;",
@@ -65,7 +67,7 @@
   "spring-info5": "Já utilizei Spring MVC.",
 
   "wicket-info1": "Tenho longa experiência com Wicket;",
-  "wicket-info2": "Já trabalhei em um grande projeto utilizando Wicket;",
+  "wicket-info2": "Já trabalhei grandes projetos utilizando Wicket;",
   "wicket-info3": "Ja criei pages, panel e components.",
 
   "hibernate-info1": "Utilizo bastante o Hibernate para fazer o mapeamento de entidades;",
@@ -85,7 +87,7 @@
   "js-describe3": "Já utilizei funções nativas do Java Script para fazer funcionalidades que atendiam o negócio.",
 
   "angular-describe1": "Já fiz um curso de Angular JS;",
-  "angular-describe2": "Já fiz um projeto com Angular JS para praticar;",
+  "angular-describe2": "Já fiz alguns projetos Angular JS para praticar;",
   "angular-describe3": "Já criei alguns projetos com Angular(Angular 2);",
   "angular-describe4": "Esse site foi feito utilizando Angular.",
 
@@ -95,7 +97,6 @@
 
   "_comment_MOBILE": "MOBILE",
   "ionic-describe1": "Já criei pequenos projetos utilizando Ionic;",
-  "ionic-describe2": "Estou estudando Ionic pois é multiplataforma;",
   "ionic-describe3": "Já fiz alguns cursos com Ionic;",
   "ionic-describe4": "Tenho algum conhecimento em Angular e o utilizo para criar projetos com Ionic.",
 

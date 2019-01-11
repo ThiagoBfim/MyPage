@@ -19,6 +19,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { TranslateLoader } from '@ngx-translate/core';
 import { GlobalService } from './global-service';
+import { MachineLearningConhecimentoComponent } from './machine-learning-conhecimento/machine-learning-conhecimento.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -34,7 +35,8 @@ export function createTranslateLoader(http: HttpClient) {
     OthersConhecimentoComponent,
     DatabaseConhecimentoComponent,
     ServerConhecimentoComponent,
-    MobileConhecimentoComponent
+    MobileConhecimentoComponent,
+    MachineLearningConhecimentoComponent
   ],
   imports: [
     BrowserModule,

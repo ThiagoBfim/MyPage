@@ -27,6 +27,7 @@ export class OthersConhecimentoComponent implements OnInit {
     this.createJasperKnow();
     this.createMavenKnow();
     this.createGitKnow();
+    this.createLinuxKnow();
   }
 
   createGitKnow() {
@@ -36,6 +37,17 @@ export class OthersConhecimentoComponent implements OnInit {
     card.image = 'assets/images/git.png';
     card.yearLearn = 2016;
     card.qtdStar = 4;
+    this.cards.push(card);
+  }
+
+  createLinuxKnow() {
+    const card = new KnowCard();
+    card.title = 'Linux';
+    this.globalService.updateCardDescribe(card, 'linux-describe1');
+    this.globalService.updateCardCertificationLink(card, 'Linux - Certificado.pdf');
+    card.image = 'assets/images/linux.png';
+    card.yearLearn = 2016;
+    card.qtdStar = 2;
     this.cards.push(card);
   }
 

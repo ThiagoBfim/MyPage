@@ -23,8 +23,10 @@ export class SocialInfoComponent implements OnInit {
 
     this.calculateMinhaIdade();
     this.createCardGit();
+    this.createCardGitLab();
     this.createCardLikendin();
     this.createCardStackOverFlow();
+    this.createCardKaggle();
   }
 
   calculateMinhaIdade() {
@@ -61,5 +63,18 @@ export class SocialInfoComponent implements OnInit {
     this.cards.push(card);
   }
 
+  createCardGitLab() {
+    const card = new CardSocialInfo();
+    card.image = 'assets/images/gitlab.png';
+    card.url = 'https://gitlab.com/ThiagoBfim';
+    this.cards.push(card);
+  }
+
+  createCardKaggle() {
+    const card = new CardSocialInfo();
+    card.image = 'assets/images/kaggle.png';
+    card.url = 'https://www.kaggle.com/thiagobfim';
+    this.cards.push(card);
+  }
 
 }
