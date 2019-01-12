@@ -26,7 +26,7 @@ export class MobileConhecimentoComponent implements OnInit {
     const card = new KnowCard();
     card.title = 'Ionic';
     this.globalService.updateCardDescribe(card, 'ionic-describe1', 'ionic-describe2', 'ionic-describe3',
-      'ionic-describe4', 'ionic-describe5');
+      'ionic-describe4');
     this.globalService.updateCardCertificationLink(card, 'Ionic - Udemy.pdf');
     card.image = 'assets/images/ionic.png';
     card.yearLearn = 2018;
