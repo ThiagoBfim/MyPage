@@ -1,22 +1,33 @@
-.grad-green {
-  background: linear-gradient(to bottom right, #4061a5, #208d2f);
-}
-
 .my-container {
   margin: 30px;
 }
 
-.right-container {
+.right-container-dark {
   border-style: double;
   color: white;
   background-color: darkgrey;
   padding: 10px;
 }
 
-.left-container {
+.right-container {
+  border-style: double;
+  color: black;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+
+.left-container-dark {
   border-style: double;
   color: white;
   background-color: darkgray;
+  padding: 10px;
+}
+
+.left-container {
+  border-style: double;
+  color: black;
+  background-color: lightgreen;
   padding: 10px;
 }
 
@@ -24,9 +35,14 @@
   text-align:left;
   font-weight: bold;
   font-size: 30px;
-  color: white;
 }
 
 .sub-container {
   margin: 5px;
+}
+
+.interruptor-style > img{
+  max-width:110px;
+  max-height:110px;
+  margin: 10px;
 }

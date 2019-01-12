@@ -1,18 +1,18 @@
-<div class="root-container">
+<div [ngClass]="lightsOn ? 'root-container': 'root-container-dark'">
   <div class="my-container row">
-    <div class="left-container col-md-4">
+    <div class="col-md-4" [ngClass]="lightsOn ? 'left-container': 'left-container-dark'">
       <app-social-info></app-social-info>
     </div>
 
-    <div class="right-container col-md-8">
+    <div class="col-md-8" [ngClass]="lightsOn ? 'right-container': 'right-container-dark'">
       <div>
         <div class="row sub-container">
-          <div class="col-8">
+          <div class="col-md-7">
             <h1 class="title-conhecimento">
               {{"Conhecimentos" | translate}}
             </h1>
           </div>
-          <div class="col-md-4" style="text-align: right">
+          <div class="col-md-5" style="text-align: right">
             <a href="javascript:void(0);" (click)="switchLanguage('en')"> <img [src]="usaImage" style="max-width:80px; max-height:80px;"></a>
             <a href="javascript:void(0);" (click)="switchLanguage('pt')"> <img [src]="brazilImage" style="max-width:80px; max-height:80px;"></a>
           </div>
@@ -24,6 +24,14 @@
         <app-mobile-conhecimento></app-mobile-conhecimento>
         <app-server-conhecimento></app-server-conhecimento>
         <app-others-conhecimento></app-others-conhecimento>
+      </div>
+    </div>
+
+    <div class="row col-md-12" style="text-align:right">
+      <div class="col-md-12">
+        <a href="javascript:;" class="interruptor-style" (click)="switchLight()">
+          <img [src]="lightsOn ? '/assets/images/ON.png' : '/assets/images/OFF.png'" >
+        </a>
       </div>
     </div>
   </div>

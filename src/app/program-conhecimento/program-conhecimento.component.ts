@@ -30,6 +30,10 @@ export class ProgramConhecimentoComponent implements OnInit {
 
   }
 
+  ngOnInit(): void {
+
+  }
+
   moreInfo(card) {
     const showInfo = this.globalService.moreInfo(card);
     if (showInfo) {

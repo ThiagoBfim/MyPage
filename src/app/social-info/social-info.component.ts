@@ -2,7 +2,6 @@ import { GlobalService } from './../global-service';
 import { Component, OnInit } from '@angular/core';
 import { CardSocialInfo } from '../model';
 import { TranslateService } from '@ngx-translate/core';
-import { LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-social-info',
