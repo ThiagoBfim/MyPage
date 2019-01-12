@@ -46,7 +46,7 @@
 
   "_comment_BANCO": "BANK",
   "sql-describe1": "I have worked with several systems on which I had to create scripts;",
-  "sql-describe2": "I have done potions with MySql, Sql Server and PostgreSQL;",
+  "sql-describe2": "I have done projects with MySql, Sql Server and PostgreSQL;",
   "sql-describe3": "I've already created Trigger, Job, Function, View ...",
 
   "nosql-describe1": "I have already used fireBase as dataBase and applications.",
@@ -97,9 +97,9 @@
 
   "_comment_MOBILE": "MOBILE",
   "ionic-describe1": "I have already created small projects using Ionic;",
-  "ionic-describe3": "I've done some courses with Ionic;",
-  "ionic-describe4": "I have some knowledge in Angular and use it to create projects with Ionic.",
-  "ionic-describe5": "For more info: https://play.google.com/store/apps/developer?id=Thiago+Santos+do+Bomfim",
+  "ionic-describe2": "I've done some courses with Ionic;",
+  "ionic-describe3": "I have some knowledge in Angular and use it to create projects with Ionic.",
+  "ionic-describe4": "For more info: https://play.google.com/store/apps/developer?id=Thiago+Santos+do+Bomfim",
 
   "android-describe1": "I've done projects with pure android;",
   "android-describe2": "I've created some applications, but no professional.",
