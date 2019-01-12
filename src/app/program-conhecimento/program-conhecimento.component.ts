@@ -1,6 +1,6 @@
 import { GlobalService } from './../global-service';
 import { KnowCard } from './../model';
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ChangeDetectorRef } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -16,7 +16,6 @@ export class ProgramConhecimentoComponent implements OnInit {
   yearNow = (new Date()).getFullYear();
   widthCard = '50%';
   qtdOpenCard = 0;
-
   // tslint:disable-next-line:no-input-rename
   @Input('obj') cards: any;
 
@@ -28,11 +27,8 @@ export class ProgramConhecimentoComponent implements OnInit {
   constructor(globalService: GlobalService, translate: TranslateService) {
     this.globalService = globalService;
     this.translate = translate;
-  }
 
-  ngOnInit() {
   }
-
 
   moreInfo(card) {
     const showInfo = this.globalService.moreInfo(card);
@@ -41,9 +37,15 @@ export class ProgramConhecimentoComponent implements OnInit {
       this.widthCard = '100%';
     } else {
       this.qtdOpenCard--;
-      if (this.qtdOpenCard === 0) {
+      if (this.qtdOpenCard === 0 && window.innerWidth > 770) {
         this.widthCard = '50%';
       }
+    }
+  }
+
+  openPanel() {
+    if (window.innerWidth < 770) {
+      this.widthCard = '100%';
     }
   }
 

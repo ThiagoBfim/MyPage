@@ -18,7 +18,7 @@ export class AppComponent implements AfterViewInit {
     this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = 'black';
   }
 
-  switchLanguage = (lang: string) => {  // <-- creating a new method
-    this.translate.use(lang); // <-- invoking `use()`
+  switchLanguage = (lang: string) => {
+    this.translate.use(lang);
   }
 }

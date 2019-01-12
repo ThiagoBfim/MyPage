@@ -9,6 +9,7 @@
   text-align:left;
   font-size: 18px;
   color: white;
+  word-break: break-all;
 }
 
 .sub-title > p {
@@ -16,4 +17,11 @@
 }
 .container-social {
   margin: 5px;
+  text-align: center;
+}
+
+.curriculo-info {
+ text-align: center;
+ font-size: 21px;
+ margin: 5px;
 }

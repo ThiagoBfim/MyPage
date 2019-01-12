@@ -1,5 +1,22 @@
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
   .conhecimento-title {
       display: none;
   }
+
+  .title-panel {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 964px) {
+
+  .title-panel {
+    font-size: 22px;
+  }
+
+}
+
+.title-panel {
+  text-align:center;
 }

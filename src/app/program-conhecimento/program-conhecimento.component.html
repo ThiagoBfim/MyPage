@@ -1,15 +1,15 @@
 <mat-accordion>
-  <mat-expansion-panel (closed)="closedPanel(cards)">
+  <mat-expansion-panel (closed)="closedPanel(cards)" (opened)= "openPanel()">
     <mat-expansion-panel-header>
       <mat-panel-title>
-        <h3 style="text-align:center" class="col-12">
+        <h3 class="col-12 title-panel">
           <span class="conhecimento-title">{{"conhecimento-em" | translate}}</span>
           {{"title-conhecimento" | translate:{'title': title} }}
         </h3>
       </mat-panel-title>
     </mat-expansion-panel-header>
 
-    <div class="row" style="color:black">
+    <div class="row" style="color:black" >
       <div *ngFor="let card of cards" class="my-card" [style.width]='widthCard'>
         <mat-card style="background: white;">
           <mat-card-header>

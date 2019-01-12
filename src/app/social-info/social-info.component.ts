@@ -25,15 +25,16 @@ export class SocialInfoComponent implements OnInit {
     this.createCardGit();
     this.createCardGitLab();
     this.createCardLikendin();
-    this.createCardStackOverFlow();
     this.createCardKaggle();
+    this.createCardStackOverFlow();
   }
 
   calculateMinhaIdade() {
     const anoNascimento = new Date('1995-08-04T00:00:00');
     const dataAtual = new Date();
     this.minhaIdade = dataAtual.getFullYear() - anoNascimento.getFullYear();
-    if (dataAtual.getMonth() < anoNascimento.getMonth() && dataAtual.getDay() < anoNascimento.getDay()) {
+    if (dataAtual.getUTCMonth() < anoNascimento.getUTCMonth()
+      || (dataAtual.getUTCMonth() === anoNascimento.getUTCMonth() && dataAtual.getUTCDate() < anoNascimento.getUTCDate())) {
       this.minhaIdade--;
     }
 
