@@ -3,21 +3,29 @@
   "esconder-info": "- INFORMAÇÃO",
   "abrir": "ABRIR",
   "contato": "Contato",
-  "title-social": "Minhas Informações Sociais",
-  "conhecimento": "Conhecimento",
+  "Conhecimentos": "Conhecimentos",
   "conhecimento-em": "Conhecimento em",
+  "Telefone":"Telefone",
+  "Idade":"Idade",
+  "Certificados": "Certificado(s)",
+  "Descricao": "Descrição",
+  "anos":"ano(s)",
+  "Profissao":"Profissão",
+  "engenheiroSoftware":"Engenheiro de Software",
   "title-conhecimento": " {{title}}!",
   "geral": "Geral",
   "banco-dados":"Banco de Dados",
   "servidor": "Servidor",
-  "github-describe": "Aqui contem todos os meus projetos públicos!<br> A maior motivação de utilizar o gitHub foi por causa do versionamento,<br>  mas existe alguns projetos comentados também. ",
+  "github-describe": "Aqui contem todos os meus projetos publicos!<br> A maior motivação de utilizar o gitHub foi por causa do versionamento,<br>  mas existe alguns projetos comentados tambem. ",
   "linkedin-describe":"Aqui contém algumas informações no ambito profissional, <br> empresas que já trabalhei, alguns conhecimentos que eu tenho, <br> conexões com pessoas, e artigos na qual eu já fiz.",
   "stackoverflow-describe": "Aqui contém algumas perguntas e respostas que eu já fiz <br> sobre codificação e outros assuntos relacionados <br> às diversas linguagens na qual eu já utilizei. ",
 
   "_comment_OUTROS": "OUTROS",
-  "git-describe1": "Tenho varios projetos no Git Hub e alguns privados no Git Lab;",
+  "git-describe1": "Tenho varios projetos no Git Hub;",
   "git-describe2": "Já trabalhei em um projeto grande utilizando gitBlit para versionamento;",
-  "git-describe3": "A maioria dos projetos foi utilizando linha de comando.",
+  "git-describe3": "Todos os projetos foi utilizando linha de comando.",
+
+  "linux-describe1": "Já trabalhei realizando implantação em servidores Linux com acesso remoto.",
 
   "maven-describe1": "Todos os meus projetos Java, eu utilizo a ferramenta Maven;",
   "maven-describe2": "Utilizo o Maven para gerenciar e baixar as dependencias;",
@@ -28,7 +36,7 @@
   "jasper-describe3": "Criei com exportação para excel, word e PDF.",
 
   "_comment_SERVER": "SERVIDOR",
-  "jboss-describe1": "Utilizo o Wildfly na maioria dos projetos como servidor de aplicação;",
+  "jboss-describe1": "Utilizo o Wildfly como servidor de aplicação;",
   "jboss-describe2": "Já trabalhei em um longo projeto com Wildfly;",
   "jboss-describe3": "Tenho conhecimento sobre o arquivo standalone, da inicialização de wars, e outros.",
 
@@ -38,32 +46,29 @@
 
   "_comment_BANCO": "BANCO",
   "sql-describe1": "Já trabalhei com vários sistemas na qual eu tive que criar scripts;",
-  "sql-describe2": "Já fiz pojetos com MySql, Sql Server, Oracle e PostgreSQL;",
+  "sql-describe2": "Já fiz pojetos com MySql, Sql Server e PostgreSQL;",
   "sql-describe3": "Já criei Trigger, Job, Function, View...",
 
-  "quartz-describe1": "Já utilizei o quartz em alguns projetos, na qual tive de configurar para ambientes clusterizados",
+  "nosql-describe1": "Já utilizei o fireBase como dataBase e aplicativos.",
 
-  "nosql-describe1": "Já utilizei o fireBase como dataBase em alguns aplicativos.",
-
-  "flyway-describe1": "Fui responsável por gerenciar scripts, para isso utilizei o Flyway;",
+  "flyway-describe1": "Já fui responsável por gerenciar scripts, para isso utilize Flyway;",
   "flyway-describe2": "Implementei o Flyway em um grande projeto para otimizar o tempo e manter o versionamento.",
 
 
   "_comment_FRONT-END": "FRONT-END",
-  "java-info1": "Tenho a certificação 1Z0-808 (Java SE 8 Programmer I);",
-  "java-info2": "Tenho a certificação 1Z0-809 (Java SE 8 Programmer II);",
-  "java-info3": "Já trabalhei com varios Frameworks de Java;",
-  "java-info4": "Já fiz varios cursos.",
+  "java-info1": "Tenho certificações Oracle",
+  "java-info2": "Já trabalhei com varios Frameworks de Java;",
+  "java-info3": "Tenho domínio de alguns Design patterns.",
 
   "spring-info1": "Tenho vários projetos com Spring;",
-  "spring-info2": "Já criei projetos com Spring Boot;",
+  "spring-info2": "Já criei projetos com Spring boot;",
   "spring-info3": "Já utilizei Spring Data;",
   "spring-info4": "Já utilizei Spring Security;",
   "spring-info5": "Já utilizei Spring MVC.",
 
   "wicket-info1": "Tenho longa experiência com Wicket;",
-  "wicket-info2": "Já trabalhei em grandes projeto utilizando Wicket;",
-  "wicket-info3": "Ja criei paginas, validadores, paineis, componentes, dentre outros.",
+  "wicket-info2": "Já trabalhei grandes projetos utilizando Wicket;",
+  "wicket-info3": "Ja criei pages, panel e components.",
 
   "hibernate-info1": "Utilizo bastante o Hibernate para fazer o mapeamento de entidades;",
   "hibernate-info2": "Tenho experiência com mapeamento relacional;",
@@ -72,7 +77,7 @@
 
   "html-describe1": "Tenho conhecimento em HTML5;",
   "html-describe2": "Já criei varios projetos na qual tive que utilizar html;",
-  "html-describe3": "Ja utilizei Thymeleaf e Apache Velocity como template engine.",
+  "html-describe3": "Ja utilizei Thymeleaf e Apache Velocity como template engine, alem de Wicket e JSF.",
 
   "css-describe1": "Tenho conhecimento em CSS3;",
   "css-describe2": "Já criei media queries para garantir responsividade.",
@@ -82,7 +87,7 @@
   "js-describe3": "Já utilizei funções nativas do Java Script para fazer funcionalidades que atendiam o negócio.",
 
   "angular-describe1": "Já fiz um curso de Angular JS;",
-  "angular-describe2": "Já fiz um projeto com Angular JS para praticar;",
+  "angular-describe2": "Já fiz alguns projetos Angular JS para praticar;",
   "angular-describe3": "Já criei alguns projetos com Angular(Angular 2);",
   "angular-describe4": "Esse site foi feito utilizando Angular.",
 
@@ -91,11 +96,19 @@
   "bootstrap-describe3": "Essa página foi feito com Bootstrap e Material design.",
 
   "_comment_MOBILE": "MOBILE",
-  "ionic-describe1": "Já criei alguns projetos utilizando Ionic;",
-  "ionic-describe2": "Estou estudando Ionic pois é multiplataforma;",
-  "ionic-describe3": "Já fiz alguns cursos sobre Ionic;",
-  "ionic-describe4": "Tenho algum conhecimento em Angular, e o utilizo para criar projetos com Ionic.",
+  "ionic-describe1": "Já criei pequenos projetos utilizando Ionic;",
+  "ionic-describe3": "Já fiz alguns cursos com Ionic;",
+  "ionic-describe4": "Tenho algum conhecimento em Angular e o utilizo para criar projetos com Ionic.",
+  "ionic-describe5": "Para maiores informações: https://play.google.com/store/apps/developer?id=Thiago+Santos+do+Bomfim",
 
   "android-describe1": "Já fiz projetos com android puro;",
-  "android-describe2": "Já criei alguns aplicativos, mas nenhum profissional."
+  "android-describe2": "Já criei alguns aplicativos, mas nenhum profissional.",
+
+  "_comment_MACHINE-LEARNING": "MACHINE-LEARNING",
+  "sckit-learn-info1": "Já fiz alguns projetos utilizando Scikit-Learning para predição.",
+
+  "pytorch-info1": "Fiz alguns cursos da Udacity, na qual tive oportunidade de aprender bastante sobre Pytorch e ML;",
+  "pytorch-info2": "Fiz alguns projetos do Kaggle utilizando Pytorch;",
+  "pytorch-info3": "Para maiores informações: https://github.com/ThiagoBfim/Machine-Learning"
+
 }
