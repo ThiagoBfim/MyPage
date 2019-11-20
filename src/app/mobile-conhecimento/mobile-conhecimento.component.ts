@@ -18,8 +18,19 @@ export class MobileConhecimentoComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.createFlutterKnow();
     this.createIonicKnow();
     this.createAndroidStudioKnow();
+  }
+
+  createFlutterKnow() {
+    const card = new KnowCard();
+    card.title = 'Flutter';
+    this.globalService.updateCardDescribe(card, 'flutter-describe1', 'flutter-describe2', 'flutter-describe3');
+    card.image = 'assets/images/flutter.png';
+    card.yearLearn = 2019;
+    card.qtdStar = 4;
+    this.cards.push(card);
   }
 
   createIonicKnow() {

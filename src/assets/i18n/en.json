@@ -21,23 +21,20 @@
   "stackoverflow-describe":"Here it contains some questions and answers that <br> I have already made about coding and other related issues <br> to the various languages ​​in which I have already used it.",
 
   "_comment_OUTROS": "OTHERS",
-  "git-describe1": "I have several projects in the Git Hub;",
+  "git-describe1": "I have several projects in the GitHub;",
   "git-describe2": "I've worked on a large project using gitBlit for versioning;",
-  "git-describe3": "All projects were using command line.",
+  "git-describe3": "I have several projects in the GitLab;",
 
   "linux-describe1": "I've worked on deploying on Linux servers with remote access.",
 
   "maven-describe1": "All my Java projects, I use the Maven tool;",
-  "maven-describe2": "I use Maven to manage and drop dependencies;",
-  "maven-describe3": "I also use it to manage plugins.",
 
   "jasper-describe1": "I used Jasper to create reports;",
   "jasper-describe2": "I have already created several reports and sub-reports;",
   "jasper-describe3": "I created with export to excel, word and PDF.",
 
   "_comment_SERVER": "SERVER",
-  "jboss-describe1": "I use Wildfly as an application server;",
-  "jboss-describe2": "I've worked on a long project with Wildfly;",
+  "jboss-describe2": "I've worked on some projects with Wildfly;",
   "jboss-describe3": "I have knowledge about the standalone file, the wars boot, and others.",
 
   "apache-describe1": "I used Tomcat in my final course completion work;",
@@ -45,20 +42,21 @@
   "apache-describe3": "I use a lot of Spring Boot, which has built-in Tomcat.",
 
   "_comment_BANCO": "BANK",
-  "sql-describe1": "I have worked with several systems on which I had to create scripts;",
-  "sql-describe2": "I have done projects with MySql, Sql Server and PostgreSQL;",
+  "sql-describe1": "I have worked with several systems on which I had to create complex querys;",
+  "sql-describe2": "I have done projects with MySql, Sql Server, Oracle and PostgreSQL;",
   "sql-describe3": "I've already created Trigger, Job, Function, View ...",
 
-  "nosql-describe1": "I have already used fireBase as dataBase and applications.",
+  "nosql-describe1": "I have already used FireBase as dataBase for some apps.",
 
-  "flyway-describe1": "I was already responsible for managing scripts, so use Flyway;",
-  "flyway-describe2": "Implemented Flyway in a great project to optimize time and maintain versioning.",
+  "flyway-describe1": "I was already responsible for managing scripts, so i used Flyway;",
+  "flyway-describe2": "Implemented Flyway in a big project to optimize time and maintain versioning.",
 
 
   "_comment_FRONT-END": "FRONT-END",
   "java-info1": "I have Oracle certifications;",
   "java-info2": "I have worked with several Java frameworks;",
   "java-info3": "I am aware of some Design patterns.",
+  "java-info4": "I am aware of unit test.",
 
   "spring-info1": "I have several projects with Spring;",
   "spring-info2": "I have already created projects with Spring boot;",
@@ -68,7 +66,7 @@
 
   "wicket-info1": "I have long experience with Wicket;",
   "wicket-info2": "I've worked on large projects using Wicket;",
-  "wicket-info3": "I have created pages, panel and components.",
+  "wicket-info3": "I have created pages, panel, components...",
 
   "hibernate-info1": "I use Hibernate extensively to do entity mapping;",
   "hibernate-info2": "I have experience with relational mapping;",
@@ -77,7 +75,7 @@
 
   "html-describe1": "I have knowledge in HTML5;",
   "html-describe2": "I have already created several projects in which I had to use html;",
-  "html-describe3": "I already used Thymeleaf and Apache Velocity as template engine, besides Wicket and JSF.",
+  "html-describe3": "I already used Thymeleaf and Apache Velocity as template engine.",
 
   "css-describe1": "I have knowledge in CSS3;",
   "css-describe2": "I've already created media queries to ensure responsiveness.",
@@ -99,15 +97,25 @@
   "ionic-describe1": "I have already created small projects using Ionic;",
   "ionic-describe2": "I've done some courses with Ionic;",
   "ionic-describe3": "I have some knowledge in Angular and use it to create projects with Ionic.",
-  "ionic-describe4": "For more info: https://play.google.com/store/apps/developer?id=Thiago+Santos+do+Bomfim",
+  "ionic-describe4": "For more info: <a href='https://play.google.com/store/apps/developer?id=Thiago+Santos+do+Bomfim' target='_blank'>apps</a>",
 
   "android-describe1": "I've done projects with pure android;",
   "android-describe2": "I've created some applications, but no professional.",
+
+  "flutter-describe1": "I'm enjoying progressing in Flutter, it's simple, robust and fast.",
+  "flutter-describe2": "I've done robust applications with Flutter.",
+  "flutter-describe3": "For more info: <a href='https://play.google.com/store/apps/developer?id=Thiago+Santos+do+Bomfim' target='_blank'>apps</a>",
+
 
   "_comment_MACHINE-LEARNING": "MACHINE-LEARNING",
   "sckit-learn-info1": "I have done some projects using Sckit-Learning for prediction.",
 
   "pytorch-info1": "I did some courses at Udacity, where I had a chance to learn a lot about Pytorch and ML;",
   "pytorch-info2": "I've done some projects for Kaggle using Pytorch;",
-  "pytorch-info3": "For more info: https://github.com/ThiagoBfim/Machine-Learning"
+  "pytorch-info3": "For more info: <a href='https://github.com/ThiagoBfim/Machine-Learning' target='_blank'>Projects<a> ",
+
+  "tensorflow-info1": "I took the course of Siraj Raval, where I learned how to create a web application with ML;",
+  "tensorflow-info2": "I've done some projects for Kaggle using  TensorFlow;",
+  "tensorflow-info3": "For more info: <a href='https://github.com/ThiagoBfim/Machine-Learning' target='_blank'>Projects<a> ",
+
 }

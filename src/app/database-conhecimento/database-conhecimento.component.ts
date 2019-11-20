@@ -46,7 +46,7 @@ export class DatabaseConhecimentoComponent implements OnInit {
     this.globalService.updateCardDescribe(card, 'nosql-describe1');
     card.image = 'assets/images/NoSQL.jpg';
     card.yearLearn = 2017;
-    card.qtdStar = 1;
+    card.qtdStar = 2;
     this.cards.push(card);
   }
 
@@ -56,7 +56,7 @@ export class DatabaseConhecimentoComponent implements OnInit {
     this.globalService.updateCardDescribe(card, 'flyway-describe1', 'flyway-describe2');
     card.image = 'assets/images/flyway.png';
     card.yearLearn = 2017;
-    card.qtdStar = 3;
+    card.qtdStar = 4;
     this.cards.push(card);
   }
 

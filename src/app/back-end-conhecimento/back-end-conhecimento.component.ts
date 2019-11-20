@@ -28,7 +28,7 @@ export class BackEndConhecimentoComponent implements OnInit {
   createJavaKnow() {
     const card = new KnowCard();
     card.title = 'Java';
-    this.globalService.updateCardDescribe(card, 'java-info1', 'java-info2', 'java-info3');
+    this.globalService.updateCardDescribe(card, 'java-info1', 'java-info2', 'java-info3', 'java-info4');
     this.globalService.updateCardCertificationLink(card, 'Oracle 1Z0-808.pdf', 'Oracle 1z0-809.pdf',
       'Design Patterns - Algaworks.pdf', 'HackaTruck - Eldorado.pdf');
     card.image = 'assets/images/Java.png';
@@ -54,7 +54,7 @@ export class BackEndConhecimentoComponent implements OnInit {
     this.globalService.updateCardCertificationLink(card, 'Angular with Spring - Algaworks.pdf', 'Spring Framework Expert - Algaworks.pdf');
     card.image = 'assets/images/spring.jpg';
     card.yearLearn = 2016;
-    card.qtdStar = 3;
+    card.qtdStar = 4;
     this.cards.push(card);
   }
 

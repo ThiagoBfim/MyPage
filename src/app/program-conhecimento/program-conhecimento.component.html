@@ -31,7 +31,7 @@
             <b>{{"Descricao" | translate}}</b>
             <ul>
               <li *ngFor="let describe of card.describes">
-                {{describe}}
+                  <div innerHTML="{{describe}}"></div>
               </li>
             </ul>
             <b>{{"Certificados"| translate}}</b>
